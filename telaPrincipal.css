@@ -1,0 +1,67 @@
+@import url('https://fonts.cdnfonts.com/css/valorant');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'VALORANT', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(220, 61, 75), rgb(114, 100, 100));
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    font-size: 100px;
+}
+
+.barra{
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.tabela {
+    width: 100%;
+    max-width: 1500px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.tabela th, .tabela td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabela th {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
+
+.tabela tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tabela tr:hover {
+    background-color: #f1f1f1;
+}
+
+.tabela th, .tabela td {
+    text-align: center;
+}
+
+.tabela td {
+    color: #333;
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.cdnfonts.com/css/valorant');
+
+body{
+    background-image: linear-gradient(to right, rgb(220, 61, 75), rgb(114, 100, 100));
+    font-family: 'VALORANT', sans-serif;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 20px;
+    width: 20%;
+}
+
+fieldset{
+    border: 3px solid rgb(240, 240, 240);
+}
+
+legend{
+    border: 3px solid white;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#nascimento{
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'VALORANT', sans-serif;
+}
+
+#sexo{
+    font-size: 20px;
+}
+
+.inputBox{
+    position: relative;
+}
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+.form-label{
+    font-size: 20px;
+    top: 20px;
+    left: 10px;
+}
+
+#enviar{
+    background-image: linear-gradient(to left, rgb(220, 61, 75), rgb(226, 71, 71));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    font-family: 'VALORANT', sans-serif;
+}
+#enviar:hover{
+    background-image: linear-gradient(to left, rgb(223, 40, 55), rgb(230, 64, 64));
+}

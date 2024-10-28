@@ -1,0 +1,42 @@
+@import url('https://fonts.cdnfonts.com/css/valorant');
+
+body{
+    background-color: rgb(220, 61, 75);
+    font-family: 'VALORANT', sans-serif;
+}
+
+.main{
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10%;
+    padding: 15px;
+}
+
+input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+#botao{
+    background-image: linear-gradient(to left, rgb(220, 61, 75), rgb(226, 71, 71));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    font-family: 'VALORANT', sans-serif;
+}
+#botao:hover{
+    background-image: linear-gradient(to left, rgb(223, 40, 55), rgb(230, 64, 64));
+}
